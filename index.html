@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Evgeny Korzhov CV</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c860e6fdbe.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="container_left">
+        <div class="left_image">
+          <img src="photo.jfif" alt="photo" />
+        </div>
+        <div class="left_bottom">
+          <div class="block_item namerole">
+            <h2 class="name">Evgeny Korzhov</h2>
+            <div class="role">Student</div>
+          </div>
+          <div class="block_item">
+            <h2 class="title">About me</h2>
+            <div class="info">
+              I am 25 years old, now i study at RS school. I like to study and
+              learn something new. I have good interpersonal skills, and
+              excellent team worker and very willing to learn and develop new
+              skills. I was graduating from ISEU BSU, but decided to try myself
+              in anothert field. So lets see how it goes.
+            </div>
+          </div>
+          <div class="block_item">
+            <h2 class="title">Location</h2>
+            <div class="info">Mogilev, Belarus</div>
+          </div>
+          <nav class="block_item contacts">
+            <h2 class="title">Contacts</h2>
+            <ul class="info">
+              <li class="subtitle">Phone</li>
+              <li>+375 44 730-59-99</li>
+              <li class="subtitle">Email</li>
+              <li>gasaifag@gmail.com</li>
+            </ul>
+          </nav>
+          <div class="block_item skills">
+            <h2 class="title">Skills</h2>
+            <ul class="info">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Git</li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <main class="container_right">
+        <div class="block_item namerole">
+          <h1 class="name">Evgeny Korzhov</h1>
+          <div class="role">Student</div>
+        </div>
+        <div class="block_item">
+          <h2 class="title">Education and languages</h2>
+          <div class="info">
+            <div class="right_block">
+              <div class="year">English</div>
+              <div class="content">
+                <p>A2+</p>
+                <p>Keep improving</p>
+              </div>
+            </div>
+            <div class="right_block">
+              <div class="year">2013-2018</div>
+              <div class="content">
+                <p>ISEU BSU</p>
+                <p>Bachelors degree, Environmental Medicine</p>
+              </div>
+            </div>
+            <div class="right_block">
+              <div class="year">2020-Present time</div>
+              <div class="content">
+                <p>Self-training</p>
+                <p>Some courses and self-studying - this is my way :)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block_item">
+          <div class="title">Projects and example of code</div>
+          <div class="info">
+            <div class="right_block">
+              <div class="year">Gues my number game</div>
+              <div class="content">
+                <p>Create this game while learn JS.</p>
+                <p>
+                  Link <a href="https://github.com/Lenoyo/GMN.git">source</a>.
+                  In this game u must pick number, that randomly generate. You
+                  have a limited numbers of attempts. You can also improve your
+                  score and set new records with every attempt (or not).
+                </p>
+              </div>
+            </div>
+            <div class="right_block">
+              <div class="year">Example of code</div>
+              <div class="content">
+                <pre
+                  class="hljs"
+                  style="
+                    display: block;
+                    overflow-x: auto;
+                    padding: 0.5em;
+                    background: rgb(51, 51, 51);
+                    color: rgb(255, 255, 255);
+                  "
+                ><span class="hljs-function"><span class="hljs-keyword" style="color: rgb(252, 194, 140);">function</span> <span class="hljs-title" style="color: rgb(255, 255, 170);">pow</span>(<span class="hljs-params">x, n</span>) </span>{
+                  <span class="hljs-keyword" style="color: rgb(252, 194, 140);">let</span> result = x;
+                  <span class="hljs-keyword" style="color: rgb(252, 194, 140);">for</span> (<span class="hljs-keyword" style="color: rgb(252, 194, 140);">let</span> i = <span class="hljs-number" style="color: rgb(211, 99, 99);">1</span>; i &lt; n; i++) {
+                    result *= x;
+                  }
+                  <span class="hljs-keyword" style="color: rgb(252, 194, 140);">return</span> result;
+                }
+                
+                <span class="hljs-keyword" style="color: rgb(252, 194, 140);">let</span> x = prompt(<span class="hljs-string" style="color: rgb(162, 252, 162);">"x?"</span>, <span class="hljs-string" style="color: rgb(162, 252, 162);">''</span>);
+                <span class="hljs-keyword" style="color: rgb(252, 194, 140);">let</span> n = prompt(<span class="hljs-string" style="color: rgb(162, 252, 162);">"n?"</span>, <span class="hljs-string" style="color: rgb(162, 252, 162);">''</span>);
+                
+                <span class="hljs-keyword" style="color: rgb(252, 194, 140);">if</span> (n &lt; <span class="hljs-number" style="color: rgb(211, 99, 99);">1</span>) {
+                  alert(<span class="hljs-string" style="color: rgb(162, 252, 162);">`Степень <span class="hljs-subst">${n}</span> 
+                не поддерживается`</span>);
+                } <span class="hljs-keyword" style="color: rgb(252, 194, 140);">else</span> {
+                  alert( pow(x, n) );
+                }</pre>
+              </div>
+            </div>
+            <div class="right_block">
+              <div class="year">More projects in future</div>
+              <div class="content">
+                <p>
+                  I will add more intresting and cool things to CV while i
+                  study.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="additional">
+        <div class="info">
+          <div class="additional_block">
+            <div class="int_icon">
+              <a href="https://github.com/Lenoyo"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <div class="int_data">Mygithub</div>
+          </div>
+          <div class="additional_block">
+            <div class="int_data">© 2021</div>
+          </div>
+          <div class="additional_block">
+            <div class="int_icon">
+              <a href="https://rs.school/js/"
+                ><img src="rsschool.png" alt="rsschool" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
