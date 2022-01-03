@@ -1,1 +1,162 @@
-/*styles*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background: lightgray;
+  font-size: 16px;
+  line-height: 20px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 800px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 10px;
+}
+
+.container .container_left {
+  width: 35%;
+  background: rgb(7, 84, 114);
+}
+
+.container .container_left .left_image {
+  width: 100%;
+}
+.container .container_left .left_image img {
+  width: 100%;
+  display: block;
+}
+
+.container .title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+  letter-spacing: 4px;
+}
+
+.container .container_left .info {
+  color: rgb(179, 178, 178);
+}
+
+.container .container_left .left_bottom {
+  padding: 20px 30px;
+}
+
+.container .block_item {
+  padding: 20px 0;
+  border-bottom: 1px solid grey;
+}
+
+.container .block_item:last-child {
+  border-bottom: 0px;
+}
+
+.container .container_left .namerole .name {
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px;
+  letter-spacing: 4px;
+}
+
+.container .container_left .namerole .role {
+  color: lightgray;
+}
+
+.container .container_left .contacts .info:last-child {
+  margin-top: 10px;
+}
+
+.container .container_left .contacts .subtitle {
+  color: white;
+  margin-bottom: 2px;
+}
+
+.container .container_left .skills .skill_list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.container .container_left .skills .skills_list .skills_bar p span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(4, 147, 212);
+  width: 100%;
+  height: 100%;
+}
+
+.container .container_right {
+  width: 65%;
+  padding: 20px 40px;
+}
+
+.container .container_right .namerole .name {
+  color: black;
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+
+.container .container_right .namerole .role {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.container .container_right .block_item .title {
+  color: black;
+}
+
+.container .container_right .right_block {
+  display: flex;
+}
+
+.container .container_right .right_block .year {
+  padding-right: 35px;
+  width: 115px;
+  position: relative;
+}
+
+.container .container_right .right_block .content {
+  padding-left: 35px;
+  margin-bottom: 20px;
+  width: calc(100% - 115px);
+}
+
+.additional {
+  justify-content: center;
+  width: 100%;
+  padding: 15px;
+  background: #505050;
+  color: white;
+}
+
+.additional .info {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.additional .additional_block .int_icon {
+  font-size: 38px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
